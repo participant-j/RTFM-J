@@ -28,6 +28,6 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: install with Maven
-      run: install
+      run: mvn install
     - name: Build with Maven
-      run: package
+      run: mvn package
