@@ -11,12 +11,10 @@ name: Java CI with Maven
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
   build:
-
+    name: testunit
     runs-on: ubuntu-latest
 
     steps:
