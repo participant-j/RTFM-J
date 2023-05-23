@@ -11,7 +11,7 @@ class Calculette:
 		print(self.res)
 
 	def divide(self,a, b):
-		if b < - 1:
+		if b < 1:
 			raise Error("vous êtes sûr????")
 		self.res =  a / b
 		print(self.res)
